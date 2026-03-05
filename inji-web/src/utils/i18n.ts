@@ -14,16 +14,10 @@ import {
     LanguageObject
 } from "../types/data";
 
-const resources = {en, ta, kn, hi, fr, ar, pt};
+const resources = {en};
 
 export const LanguagesSupported: LanguageObject[] = [
-    {label: "English", value: 'en'},
-    {label: "தமிழ்", value: 'ta'},
-    {label: "ಕನ್ನಡ", value: 'kn'},
-    {label: "हिंदी", value: 'hi'},
-    {label: "Français", value: 'fr'},
-    {label: "عربي", value: 'ar'},
-    {label: "Português", value:'pt'}
+    {label: "English", value: 'en'}
 ]
 
 export const defaultLanguage = window._env_.DEFAULT_LANG;
