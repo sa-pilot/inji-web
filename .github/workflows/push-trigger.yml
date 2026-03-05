@@ -15,6 +15,7 @@ on:
       - qa-develop
       - MOSIP*
       - injiweb*
+      - sa-id-0.14.0
 
 jobs:
   build-dockers-inji-web:
